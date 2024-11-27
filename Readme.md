@@ -1,3 +1,5 @@
+This is a task management app, that allows the user to create, update, delete, and organise tasks with user interaction, asynchronous functionality, and modern JavaScript features
+
 Skills:
 
 1. HTML
