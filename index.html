@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Task Management App</h1>
+    <div>
+      <input id="task-title" placeholder="Task Title" />
+      <input id="task-due-date" type="date" />
+      <select id="task-category">
+        <option value="Work">Work</option>
+        <option value="Personal">Personal</option>
+        <option value="School">School</option>
+        <option value="Other">Other</option>
+      </select>
+      <select id="task-priority">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+      <button id="customise-priority-btn">Customise Priorities</button>
+      <div id="priority-editor" style="display: none">
+        <input id="new-priority" placeholder="Enter new priority" />
+        <button id="add-priority-btn">Add Priority</button>
+      </div>
+      <button id="add-task-btn">Add Task</button>
+    </div>
+    <input id="search-input" placeholder="Search tasks" />
+    <select id="filter-priority">
+      <option value="">All Priorities</option>
+      <option value="High">High</option>
+      <option value="Medium">Medium</option>
+      <option value="Low">Low</option>
+    </select>
+    <ul id="task-list"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
